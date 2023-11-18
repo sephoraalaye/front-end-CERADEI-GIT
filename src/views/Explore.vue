@@ -7,3 +7,8 @@
     exploration
   </main>
 </template>
+
+
+<style scoped>
+
+</style>
