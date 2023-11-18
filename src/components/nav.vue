@@ -1,44 +1,30 @@
 
 
 <template>
-   <header class="d-flex justify-space-between">
-        <img src="../assets/images/CERADEI1.png" alt="l'icone de Ceradei" class="" />
+   <header class="d-flex justify-space-between ma-1">
+        <img src="../assets/images/CERADEI1.png" alt="l'icone de Ceradei" />
           <nav>
-            <ul class="d-flex  ma-10">
-              <li>
-                <v-sheet class="ma-2 pa-2">
-                  <a href="">Acceuil</a>
-                </v-sheet>
+            <ul class="d-flex  pa-7">
+              <li class="ma-2 pa-2">
+                <a href="">Acceuil</a>
               </li>
-              <li>
-                <v-sheet class="ma-2 pa-2">
-                  <a href="">Espace académique</a>
-                </v-sheet>
+              <li class="ma-2 pa-2">
+                <a href="">Espace académique</a>
               </li>
-              <li>
-                <v-sheet class="ma-2 pa-2">
+              <li class="ma-2 pa-2">
                   <a href="">Espace culturel</a>
-                </v-sheet>
               </li>
-              <li>
-                <v-sheet class="ma-2 pa-2">
+              <li class="ma-2 pa-2"> 
                   <a href="">Explorer</a>
-                </v-sheet>
               </li>
-              <li>
-                <v-sheet class="ma-2 pa-2">
+              <li class="ma-2 pa-2">
                   <a href="">A propos</a>
-                </v-sheet>
               </li>
-              <li>
-                <v-sheet class="ma-2 pa-2">
-                  <a href="">Aide et support</a>
-                </v-sheet>
+              <li class="ma-2 pa-2">
+                <a href="">Aide et support</a>
               </li>
-              <li>
-                <v-sheet class="pa-2">
-                  <v-btn variant="outlined"> Nous rejoindre </v-btn>
-                </v-sheet>
+              <li class="ma-1 pa-2">
+                <v-btn variant="outlined"> Nous rejoindre </v-btn>
               </li>
             </ul>
           </nav>
@@ -47,8 +33,8 @@
 
 <style scoped>
   img{
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
   }
   li{
     font-size: large;
@@ -60,6 +46,14 @@
     text-decoration: none;
     color: black;
   }
+
+  header {
+    position: sticky;
+    top: -20px;
+    height: 17vh;
+  }
+
+
 </style>
 
 <!-- <script>
