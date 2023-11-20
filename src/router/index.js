@@ -4,6 +4,8 @@ import AboutView from '../views/AboutView.vue'
 import AcademicSpaceView from '../views/AcademicSpaceView.vue'
 import CulturelSpaceView from '../views/CulturelSpaceView.vue'
 import ExploreView from '../views/Explore.vue'
+import HelpView from '../views/HelpView.vue'
+import RejoindreNousView from '../views/RejoindreNousView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,16 @@ const router = createRouter({
       path: '/explore',
       name: 'exploration',
       component: ExploreView
+    },
+    {
+      path: '/help',
+      name: 'help',
+      component: HelpView
+    },
+    {
+      path: '/rejoindrenous',
+      name: 'rejoindrenous',
+      component:RejoindreNousView
     }
   ]
 })

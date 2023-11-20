@@ -1,6 +1,11 @@
 <template>
-    <h1>testimony</h1>
+   
 </template>
+
+<style scoped>
+    
+</style>
+
 
 <script>
 export default {
