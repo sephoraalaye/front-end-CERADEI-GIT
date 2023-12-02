@@ -1,13 +1,13 @@
 <template>
     
-    <v-container>
-        <v-row>
-            <v-col :cols="8" class="    border">
-             <v-row class="d-flex" >
+    <v-container style="margin-top: 10%">
+        <v-row >
+            <v-col :cols="8" class="border "  >
+             <v-row class="d-flex " style="margin-bottom: 10%;" >
                 <v-card
                 class="mx-auto"
-                max-width="403"
-                height="480"
+                max-width="350"
+                height="430"
             >
                 <v-img
                 class="align-end text-white"
@@ -21,179 +21,166 @@
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
 
-                <v-card-actions>
-                <v-btn color="orange">
-                    Share
-                </v-btn>
-
-                <v-btn color="orange">
-                    Explore
-                </v-btn>
-                </v-card-actions>
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <v-icon style="width: 20px;height: 20px;">mdi-calendar</v-icon>
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
                 </v-card>
                 <v-card
                 class="mx-auto"
-                max-width="400"
+                max-width="350"
+                height="430"
             >
                 <v-img
                 class="align-end text-white"
-                height="200"
+                height="300"
                 src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
                 cover
                 >
                 </v-img>
 
-                <v-card-subtitle class="pt-4">
-                Number 10
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 18px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
 
-                <v-card-text>
-                <div>Whitehaven Beach</div>
-
-                <div>Whitsunday Island, Whitsunday Islands</div>
-                </v-card-text>
-
-                <v-card-actions>
-                <v-btn color="orange">
-                    Share
-                </v-btn>
-
-                <v-btn color="orange">
-                    Explore
-                </v-btn>
-                </v-card-actions>
-                </v-card>
-            </v-row> 
-            <v-row class="d-flex" >
-                <v-card
-                class="mx-auto"
-                max-width="400"
-            >
-                <v-img
-                class="align-end text-white"
-                height="200"
-                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                cover
-                >
-                </v-img>
-
-                <v-card-subtitle class="pt-4">
-                Number 10
-                </v-card-subtitle>
-
-                <v-card-text>
-                <div>Whitehaven Beach</div>
-
-                <div>Whitsunday Island, Whitsunday Islands</div>
-                </v-card-text>
-
-                <v-card-actions>
-                <v-btn color="orange">
-                    Share
-                </v-btn>
-
-                <v-btn color="orange">
-                    Explore
-                </v-btn>
-                </v-card-actions>
-                </v-card>
-                <v-card
-                class="mx-auto"
-                max-width="400"
-            >
-                <v-img
-                class="align-end text-white"
-                height="200"
-                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                cover
-                >
-                </v-img>
-
-                <v-card-subtitle class="pt-4">
-                Number 10
-                </v-card-subtitle>
-
-                <v-card-text>
-                <div>Whitehaven Beach</div>
-
-                <div>Whitsunday Island, Whitsunday Islands</div>
-                </v-card-text>
-
-                <v-card-actions>
-                <v-btn color="orange">
-                    Share
-                </v-btn>
-
-                <v-btn color="orange">
-                    Explore
-                </v-btn>
-                </v-card-actions>
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <v-icon style="width: 20px;height: 20px;">mdi-calendar</v-icon>
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
                 </v-card>
             </v-row> 
-            <v-row class="d-flex" >
+             <v-row class="d-flex" style="margin-bottom: 10%;" >
                 <v-card
                 class="mx-auto"
-                max-width="400"
+                max-width="350"
+                height="430"
             >
                 <v-img
                 class="align-end text-white"
-                height="200"
+                height="300"
                 src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
                 cover
                 >
                 </v-img>
 
-                <v-card-subtitle class="pt-4">
-                Number 10
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 18px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
 
-                <v-card-text>
-                <div>Whitehaven Beach</div>
-
-                <div>Whitsunday Island, Whitsunday Islands</div>
-                </v-card-text>
-
-                <v-card-actions>
-                <v-btn color="orange">
-                    Share
-                </v-btn>
-
-                <v-btn color="orange">
-                    Explore
-                </v-btn>
-                </v-card-actions>
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <v-icon style="width: 20px;height: 20px;">mdi-calendar</v-icon>
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
                 </v-card>
                 <v-card
                 class="mx-auto"
-                max-width="400"
+                max-width="350"
+                height="430"
             >
                 <v-img
                 class="align-end text-white"
-                height="200"
+                height="300"
                 src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
                 cover
                 >
                 </v-img>
 
-                <v-card-subtitle class="pt-4">
-                Number 10
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 18px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
 
-                <v-card-text>
-                <div>Whitehaven Beach</div>
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <v-icon style="width: 20px;height: 20px;">mdi-calendar</v-icon>
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
+                </v-card>
+            </v-row> 
+             <v-row class="d-flex" style="margin-bottom: 10%;" >
+                <v-card
+                class="mx-auto"
+                max-width="350"
+                height="430"
+            >
+                <v-img
+                class="align-end text-white"
+                height="300"
+                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                cover
+                >
+                </v-img>
 
-                <div>Whitsunday Island, Whitsunday Islands</div>
-                </v-card-text>
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 18px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
+                </v-card-subtitle>
 
-                <v-card-actions>
-                <v-btn color="orange">
-                    Share
-                </v-btn>
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <v-icon style="width: 20px;height: 20px;">mdi-calendar</v-icon>
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
+                </v-card>
+                <v-card
+                class="mx-auto"
+                max-width="350"
+                height="430"
+            >
+                <v-img
+                class="align-end text-white"
+                height="300"
+                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                cover
+                >
+                </v-img>
 
-                <v-btn color="orange">
-                    Explore
-                </v-btn>
-                </v-card-actions>
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 18px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
+                </v-card-subtitle>
+
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <v-icon style="width: 20px;height: 20px;">mdi-calendar</v-icon>
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
                 </v-card>
             </v-row> 
 
@@ -213,7 +200,9 @@
 
 
 <style scoped>
-
+a{
+    text-decoration: none;
+}
 </style>
 
 <!-- <script>
