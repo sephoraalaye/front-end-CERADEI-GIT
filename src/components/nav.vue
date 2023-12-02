@@ -9,7 +9,7 @@
                 <a href="">Acceuil</a>
               </li>
               <li class="ma-2 pa-2">
-                <a href="">Espace académique</a>
+                <a href="/explore">Espace académique</a>
               </li>
               <li class="ma-2 pa-2">
                   <a href="">Espace culturel</a>
