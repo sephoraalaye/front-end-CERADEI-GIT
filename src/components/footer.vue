@@ -29,9 +29,6 @@
             <v-col>
                 <div class="titre mb-5">Notre adresse</div>
                 <div class="options">Département de GIT. EPAC-UAC</div>  
-                <div>
-
-                </div>
             </v-col>
         </v-row>
         <v-row class="d-flex justify-center my-10">

@@ -1,29 +1,29 @@
 
 
 <template>
-   <header class="d-flex justify-space-between ma-1">
-        <img src="../assets/images/CERADEI1.png" alt="l'icone de Ceradei" />
+   <header class="d-flex  border ma-1" style="margin-left: 108px;">
+        <img src="../assets/images/CERADEI1.png" class="" alt="l'icone de Ceradei" />
           <nav>
-            <ul class="d-flex  pa-7">
-              <li class="ma-2 pa-2">
+            <ul class="d-flex">
+              <li class="">
                 <a href="">Acceuil</a>
               </li>
-              <li class="ma-2 pa-2">
+              <li class="">
                 <a href="/explore">Espace académique</a>
               </li>
-              <li class="ma-2 pa-2">
+              <li class="">
                   <a href="">Espace culturel</a>
               </li>
-              <li class="ma-2 pa-2"> 
+              <li class=""> 
                   <a href="">Explorer</a>
               </li>
-              <li class="ma-2 pa-2">
+              <li class="">
                   <a href="">A propos</a>
               </li>
-              <li class="ma-2 pa-2">
+              <li class="">
                 <a href="">Aide et support</a>
               </li>
-              <li class="ma-1 pa-2">
+              <li class="">
                 <v-btn variant="outlined"> Nous rejoindre </v-btn>
               </li>
             </ul>
@@ -33,8 +33,8 @@
 
 <style scoped>
   img{
-    width: 150px;
-    height: 150px;
+    width: 178px;
+    height: 176px;
   }
   li{
     font-size: large;
@@ -48,7 +48,6 @@
   }
 
   header {
-    position: sticky;
     top: -20px;
     height: 17vh;
   }
