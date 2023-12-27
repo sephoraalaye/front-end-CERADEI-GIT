@@ -1,7 +1,7 @@
 <template>
     <section>
-        <h3 class="text-center font-weight-bold">Présentons</h3>
-        <h1 class="text-center font-weight-bold">Nos Activités</h1>
+        <div class="titre">Présentons</div>
+        <div>Nos Activités</div>
         <v-container>
             <v-row no-gutters class="d-flex justify-space-between">
                 <v-col
@@ -27,12 +27,6 @@
                             <v-card-text class="text-center">
                                {{ descriptions[n-1] }}
                             </v-card-text>
-                            <!-- <div
-                                v-show="hoveredCard === index"
-                                class="hovered-div rounded-shaped"
-                                >
-                                Contenu de la div survolée
-                            </div> -->
                     </v-card>
                 </v-col>
             </v-row>
@@ -44,20 +38,32 @@
 </template>
 
 <style scoped>
+.titre{
+    width: 103px;
+    height: 27px;
+    font-size: 18px;
+    margin-left: 580px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+    text-align: Center;
+    color: rgba(94, 98, 130, 1);
+}
+.titre + div{
+    width: 321px;
+    height: 65px;
+    font-size: 50px;
+    margin-left: 450px;
+    font-family: 'Volkhov', serif;
+    line-height: 64.5px;
+    text-align: Center;
+    color:rgba(20, 24, 62, 1); 
+}
 .btn{
     background-color: dodgerblue;
     padding: 10px;
 }
 
-/* .hovered-div{
-    /* opacity: 0; 
-    background-color: green ;
-    width: 150px;
-    height: 100px;
-    position: relative;
-    z-index: -10;
-    /* top: 100px; 
-} */
+
 .v-img:hover{
     cursor: pointer;
     transform: scale(1.08);
