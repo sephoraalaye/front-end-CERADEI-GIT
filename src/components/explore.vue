@@ -17,11 +17,11 @@
                 cover
                 >
                 </v-img>
-
+  
                 <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
-
+  
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
@@ -47,11 +47,11 @@
                 cover
                 >
                 </v-img>
-
+  
                 <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
-
+  
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
@@ -79,11 +79,11 @@
                 cover
                 >
                 </v-img>
-
+  
                 <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
-
+  
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
@@ -109,11 +109,11 @@
                 cover
                 >
                 </v-img>
-
+  
                 <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
-
+  
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
@@ -141,11 +141,11 @@
                 cover
                 >
                 </v-img>
-
+  
                 <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
-
+  
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
@@ -171,11 +171,11 @@
                 cover
                 >
                 </v-img>
-
+  
                 <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
                     Journée du Monde Professionnel (JMP)
                 </v-card-subtitle>
-
+  
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
@@ -189,9 +189,9 @@
                 </div>
                 </v-card>
             </v-row> 
-
+  
             </v-col>
-
+  
             <v-divider vertical class="" style="height: 1300px; "></v-divider>
             <v-col :cols="3" class="">
                 <div class="border d-flex align-center justify-space-between pa-1 " style="width: 268px;height: 39px; top:331px ; border-radius: 5px; color: rgba(33, 40, 50, 1);"> 
@@ -207,18 +207,18 @@
                     <v-list-item-avatar>
                         <v-img :src="commonImage" alt="Image commune" height="20" width="20"></v-img>
                     </v-list-item-avatar>
-
+  
                     <v-list-item-content>
                         <v-list-item-title>{{ item.phrase }}</v-list-item-title>
                     </v-list-item-content>
                     </v-list-item>
                 </v-list>
-
-
-
-
-
-
+  
+  
+  
+  
+  
+  
                 </div>
                 <div class="border">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum minima minus deleniti ullam? Laudantium iste, hic perspiciatis sit quidem aut atque optio quos reprehenderit temporibus corrupti ex asperiores ea.
@@ -226,19 +226,19 @@
                 <div class="border">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum minima minus deleniti ullam? Laudantium iste, hic perspiciatis sit quidem aut atque optio quos reprehenderit temporibus corrupti ex asperiores ea.
                 </div>
-
+  
             </v-col>
           
         </v-row>
     </v-container>
-
+  
     
-</template>
-
-
-
-<script>
-export default {
+  </template>
+  
+  
+  
+  <script>
+  export default {
   name: 'VotreComposant',
   data() {
     return {
@@ -252,5 +252,5 @@ export default {
     };
   }
   // Autres options du composant
-}
-</script>
+  }
+  </script>

@@ -5,7 +5,7 @@
   import NewsLetters from '../components/HomeComponents/newsletter.vue'
   import Presentation from '../components/HomeComponents/presentation.vue'
   import Testimony from '../components/HomeComponents/testimony.vue'
-  import Explorer from '../components/HomeComponents/explorer.vue'
+  import Office from '../components/HomeComponents/office.vue'
 
 </script>
 
@@ -16,7 +16,7 @@
     <MyActivity />
     <Join />
     <Testimony />
+    <Office />
     <NewsLetters />
-    <Explorer />
   </main>
 </template>

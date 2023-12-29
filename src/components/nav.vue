@@ -63,9 +63,12 @@
     color: rgba(0, 0, 0,1);
   }
 
+  
   header {
+    position: sticky;
     top: -20px;
     height: 17vh;
+    backdrop-filter: blur(10px);
   }
 
   .rectangle{

@@ -1,5 +1,5 @@
 <script setup>
-  import Explorer from '../components/HomeComponents/explorer.vue'
+  import Explorer from '../components/explore.vue'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <template>
-    <section class="mb-16">
+    <section class="mb-6">
         <v-row>
             <v-col>
                 <div class="titre d-flex justify-center mb-2">Présentons</div>
@@ -78,8 +78,11 @@
                 <img src="../../assets/images/Group 4.png" alt="">
             </v-col>
         </v-row>
-        
-
+        <v-row class=" d-flex justify-center">
+          <v-col-4 class=" text-center d-flex justify-center align-center enveloppe">
+            <v-btn variant="" class="btn "> Voir plus.... </v-btn>
+          </v-col-4>
+        </v-row>
     </section>
 </template>
 
@@ -193,11 +196,28 @@ img + div{
     
 }
 
+.enveloppe{
+    background-color:rgba(39, 91, 115, 1);
+    font-family: 'Actor', sans-serif;
+    width: 170px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.65px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
 
+}
 
 .btn{
-    background-color: dodgerblue;
     padding: 10px;
+    font-family: 'Actor', sans-serif;
+    width: 82px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.65px;
+    color: rgba(255, 255, 255, 1);
 }
 
 
