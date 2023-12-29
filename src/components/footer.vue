@@ -5,6 +5,7 @@
                 <img  src="../assets/images/CERADEI1.png" alt="icone de CERADEI-GIT">
                 <div>ceradei-git@gmail.com</div>
                 <div>+888-888-88</div>
+                <img src="../assets/images/Shape.png" style="width: 162px; height: 123px; margin-top: 60px;" alt="">
             </v-col>
             <v-col>
                 <div class="titre mb-5">Links</div>
