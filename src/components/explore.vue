@@ -137,27 +137,121 @@
                     <div>Recherche </div>
                     <img src="../assets/images/search.png" style="width: 20px; height: 20px;" alt="recherche">
                 </div>
-                <div class="mt-15 membres" >
-                    <div class="">Membres</div>
-                    <v-list>
-                        <v-list-item v-for="(item, index) in items" :key="index">
-                        <v-list-item-avatar>
-                            <v-img :src="commonImage" alt="Image commune" height="20" width="20"></v-img>
-                        </v-list-item-avatar>
-    
-                        <v-list-item-content>
-                            <v-list-item-title>{{ item.phrase }}</v-list-item-title>
-                        </v-list-item-content>
-                        </v-list-item>
-                    </v-list>
+                <div class="mt-15 membres border"  style="height:446.62px;" >
+                    <div class="" style="margin-bottom: -40px;">
+                        <div class="mt-5 " style="margin-bottom: -8px;">Membres</div>
+                        <img src="../assets/images/Line 1.png" class="ml-1 " style="" alt="">
+                        <div class=" mt-1">
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Membres CERADEI 2020</div>
+                            </div>
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Membres CERADEI 2021</div>
+                            </div>
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Membres CERADEI 2022</div>
+                            </div>
+                            <div class="d-flex mb-2 " style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Membres CERADEI 2023</div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="fleche">
+                    </div>
+                    <div class="">
+                        <div class="mt-6 " style="margin-bottom: -8px;">Activités</div>
+                        <img src="../assets/images/Line 1.png" class="ml-1 " style="" alt="">
+                        <div class="mt-1">
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Activités en 2020</div>
+                            </div>
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Activités en 2021</div>
+                            </div>
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Activités en 2022</div>
+                            </div>
+                            <div class="d-flex mb-2" style="gap: 3px;">
+                                <img src="../assets/images/arrow_3024254 8.png" alt="">
+                                <div class="mt-1">Activités en 2023</div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="fleche">
+                    </div>
+                </div> 
+                <div class="mt-15 membres border" style="height:486.17px ;" >
+                    <div class="" style="margin-bottom: -40px;">
+                        <div class="mt-5 " style="margin-bottom: -8px;">Récentes activités</div>
+                        <img src="../assets/images/Line 1.png" class="ml-1 " style="" alt="">
+                        <div class=" mt-1 mb-7">
+                            <div class=" d-flex mb-2" style="gap: 10px;">
+                                <img src="../assets/images/Rectangle 165.png" alt="">
+                                <div class="mt-1">
+                                    <div class="mb-3 texte">JEEP 2023</div>
+                                    <div>Juin 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-1 mb-7">
+                            <div class=" d-flex mb-2" style="gap: 10px;">
+                                <img src="../assets/images/Rectangle 165.png" alt="">
+                                <div class="mt-1">
+                                    <div class="mb-3 texte">JEEP 2023</div>
+                                    <div>Juin 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-1 mb-7">
+                            <div class=" d-flex mb-2" style="gap: 10px;">
+                                <img src="../assets/images/Rectangle 165.png" alt="">
+                                <div class="mt-1">
+                                    <div class="mb-3 texte">JEEP 2023</div>
+                                    <div>Juin 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-1 mb-7">
+                            <div class=" d-flex mb-2" style="gap: 10px;">
+                                <img src="../assets/images/Rectangle 165.png" alt="">
+                                <div class="mt-1">
+                                    <div class="mb-3 texte">JEEP 2023</div>
+                                    <div>Juin 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="fleche">
+                    </div>
+                </div>     
+                <div class="mt-15 membres border" style="height:328px ;" >
+                    <div class="" style="margin-bottom: -40px;">
+                        <div class="mt-5 " style="margin-bottom: -8px;">Les plus recherchés</div>
+                        <img src="../assets/images/Line 1.png" class="ml-1  " style="" alt="">
+                        <div>
+                            <div class="d-flex mt-4" style="gap: 30px;">
+                                <div class="tournoi">tournoi</div>
+                                <div class="tournoi">formations</div>
+                            </div>
+                            <div class="d-flex mt-4" style="gap: 30px;">
+                                <div class="tournoi">tournoi</div>
+                                <div class="tournoi">membres</div>
+                            </div>
+                            <div class="d-flex mt-4" style="gap: 20px;">
+                                <div class="tournoi">tournoi</div>
+                                <div class="tournoi">jeep</div>
+                            </div>
+                            <div class="d-flex mt-4" style="gap: 30px;">
+                                <div class="tournoi">tournoi</div>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="border">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum minima minus deleniti ullam? Laudantium iste, hic perspiciatis sit quidem aut atque optio quos reprehenderit temporibus corrupti ex asperiores ea.
-                </div>
-                <div class="border">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum minima minus deleniti ullam? Laudantium iste, hic perspiciatis sit quidem aut atque optio quos reprehenderit temporibus corrupti ex asperiores ea.
-                </div>
-  
             </v-col>
           
         </v-row>
@@ -170,7 +264,6 @@
  .card{
     height: 137;
     position: relative;
-    /* background-image: url("../assets/mages/Rectangle 15 (1).png"); */
     margin-top: -100px;
  }
 
@@ -222,14 +315,40 @@
     color: rgba(94, 98, 130, 1);
  }
 
+ .tournoi{
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+    padding: 10px 15px ;
+ }
  .membres{
     font-size: 17px;
     font-weight: 400px;
     line-height: 20.45px;
     color: rgba(33, 40, 50, 1);
     font-family: 'Actor', sans-serif;
+    width: 268px;
+    border-radius: 24px;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 20px 13px 0px rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding-left: 20px;
  }
 
+ 
+
+ 
+
+ .texte{
+    font-weight: 400;
+    size: 17px;
+    line-height: 22.93px;
+    color: rgba(33, 40, 50, 1);
+    font-family: 'Abril Fatface', serif;
+
+ }
  </style>
   
   
@@ -239,14 +358,6 @@
   name: 'VotreComposant',
   data() {
     return {
-      commonImage: '../../../src/assets/images/right-arrow_3839915 1.png', // Remplacez par l'URL de votre image commune
-      items: [
-        { phrase: 'Première phrase avec une image' },
-        { phrase: 'Deuxième phrase avec une image' },
-        { phrase: 'Troisième phrase avec une image' },
-        { phrase: 'Troisième phrase avec une image' },
-        // Ajoutez d'autres éléments de liste au besoin
-      ]
     };
   }
   // Autres options du composant
