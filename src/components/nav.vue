@@ -65,10 +65,10 @@
 
   
   header {
-    position: sticky;
+    /* position: sticky; */
     top: -20px;
     height: 17vh;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
   }
 
   .rectangle{
